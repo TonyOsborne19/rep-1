@@ -1,1 +1,52 @@
-hello
+*{
+	box-sizing: border-box;
+}
+img {
+	margin-top: 50px;
+	width: 10%;
+	position: absolute;
+	padding: 
+
+}
+header{
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	background-color: #A3333D;
+}
+ul.main-nav{
+			margin: 0;
+			padding: 0;
+			text-align:center;
+		}
+ul.main-nav li ul.drop-down{
+			display: none;
+			position: absolute;
+			padding: 20px 0px 0px 0px;
+			text-align: left;
+			background-color: #A3333D;
+			margin-left: -10px;
+		}
+ul.main-nav li ul.drop-down li{
+			display: block;
+			padding: 10px;
+		}
+ul.main-nav li:hover ul.drop-down{
+			display: block;
+		}
+ul.main-nav li{
+			list-style-type: none;
+			display: inline-block;
+			margin-right: 35px;
+			padding: none;
+			font-family: helvetica, sans-serif ;
+			text-transform: uppercase;
+			font-size: 10px;
+			letter-spacing: 1px;
+			font-weight: bold;
+}
+
+
+
+
+

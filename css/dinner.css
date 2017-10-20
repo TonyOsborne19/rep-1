@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	margin:0;
+	padding: 0;
+	background-color: #DFA06E;
+	text-align:center;
+}
+img.logo {
+	margin:0 auto;
+	width: 300px;
+	position: relative;
+}
+h1{
+	text-align:center;
+	margin-right: 30px;
+	position: relative;
+}
+header{
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	background-color: #A3333D;
+	z-index: 99999;
+}
+ul.main-nav {
+			margin: 0;
+			padding: 0;
+			text-align:center;
+}
+ul.main-nav li{
+			list-style-type: none;
+			display: inline-block;
+			margin-right: 35px;
+			padding: none;
+			font-family: helvetica, sans-serif;
+			text-transform: uppercase;
+			font-size: 10px;
+			letter-spacing: 1px;
+			font-weight: bold;
+			position: relative;
+}
+ul.main-nav li ul.drop-down {
+			display: none;
+			position: absolute;
+			padding: 20px 0px 0px 0px;
+			text-align: left;
+			background-color: #A3333D;
+			margin-left: -10px;
+}
+ul.main-nav li ul.drop-down li{
+			display: block;
+			padding: 10px;
+			/*border: solid ;*/
+			margin:0;
+}
+ul.main-nav li:hover ul.drop-down{
+			display: block;
+}
+div.page-wrap{
+	position: relative;
+	padding-top: 120px;
+}
+div.dinner-a{ 
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 20px;
+	width: 300px;
+	background-color: #86BA90;
+}
+div.dinner-a img.tamale{
+	margin:0 auto;
+	width: 100%;
+	height: 175px;
+}
+div.dinner-b{ 
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 20px;
+	width: 290px;
+	background-color: #86BA90;
+}
+div.dinner-b img.taco{
+	margin:0 auto;
+	width: 100%;
+	height: 175px;
+}
+div.dinner-c{ 
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 20px;
+	width: 290px;
+	background-color: #86BA90;
+}
+div.dinner-c img.huevos{
+	margin:0 auto;
+	width: 100%;
+	height: 175px;
+}
+div.dinner-d{ 
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 20px;
+	width: 290px;
+	background-color: #86BA90;
+}
+div.dinner-d img.fajitas{
+	margin:0 auto;
+	width: 100%;
+	height: 175px;
+}
+div.dinner-e{ 
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 20px;
+	width: 290px;
+	background-color: #86BA90;
+}
+div.dinner-e img.nachos{
+	margin:0 auto;
+	width: 100%;
+	height: 175px;
+}
